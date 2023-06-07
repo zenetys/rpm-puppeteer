@@ -1,0 +1,11 @@
+--- a/check_puppeteer	2023-06-07 09:40:37.000000000 +0000
++++ b/check_puppeteer	2023-06-07 09:56:23.485035881 +0000
+@@ -66,7 +66,7 @@
+         timeout: 10,
+         verbose: 0,
+         vars: {},
+-        browserBin: undefined, // default browser bundled with puppeteer
++        browserBin: '/usr/lib64/chromium-browser/headless_shell',
+         browserArgs: [],
+     };
+     for (let i = 2; i < process.argv.length; i++) {
