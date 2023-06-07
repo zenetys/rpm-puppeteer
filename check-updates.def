@@ -1,0 +1,1 @@
+puppeteer-18 18.2.1 json:map(.name)[]:.+ https://api.github.com/repos/puppeteer/puppeteer/tags <(^|puppeteer-)v(18\..+) \3\t\1
